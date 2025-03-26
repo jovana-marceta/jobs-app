@@ -1,4 +1,4 @@
-# Jobs App
+# Jobs Project (YouTube)
 
 ## Usage
 
@@ -7,7 +7,7 @@ This project uses JSON-Server for a mock backend.
 ### Install Dependencies
 
 ```bash
-yarn add
+npm install
 ```
 
 ### Run JSON Server
@@ -23,11 +23,17 @@ npm run server
 React will run on http://localhost:3000
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ### Build for Production
 
 ```bash
-yarn build
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
 ```
