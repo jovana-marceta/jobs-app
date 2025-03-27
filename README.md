@@ -1,13 +1,18 @@
-# Jobs Project (YouTube)
+# React Jobs App
 
-## Usage
+A modern job listing application built with React and Tailwind CSS. Users can explore job opportunities, while employers can post openings. The app features a clean, responsive UI and is powered by a mock backend using JSON Server.
 
-This project uses JSON-Server for a mock backend.
+## 🔧 Tech Stack
+
+- **React** – Frontend framework
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **JSON Server** – Mock REST API for job listings
+- **Vite** – Fast dev server and build tool
 
 ### Install Dependencies
 
 ```bash
-npm install
+yarn dev
 ```
 
 ### Run JSON Server
@@ -15,7 +20,7 @@ npm install
 The server will run on http://localhost:8000
 
 ```bash
-npm run server
+yarn run server
 ```
 
 ### Run Vite Frontend
@@ -23,17 +28,6 @@ npm run server
 React will run on http://localhost:3000
 
 ```bash
-npm run dev
+yarn build
 ```
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
